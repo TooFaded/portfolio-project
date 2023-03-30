@@ -226,7 +226,7 @@ body {
 
 .about-content img{
     width: 350px;
-    length: 350px;
+    height: auto;
     border:solid 5px #107fcf;
     border-radius: 100px; 
 }
@@ -246,7 +246,7 @@ body {
 
 .portfolio-content img {
     width: 300px;
-    length:300px;
+    height:auto;
     border:solid 5px #107fcf;
     border-radius: 25px;
 }
