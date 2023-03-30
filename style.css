@@ -1,5 +1,9 @@
 
 /* index.html */
+
+
+
+
 body {
     background-image: url(https://media.istockphoto.com/id/1387945043/photo/computer-technology-background-digital-data-flow-network-connection-structure-big-data.jpg?b=1&s=170667a&w=0&k=20&c=Sd255zPE6kBUU_EE3omdvL5GNWQdfSeOBmHBdEObCJc=);
     background-position: center center;
@@ -14,6 +18,11 @@ body {
     font-weight: bolder;
     font-size: 20px;
     margin-top: 30px;
+}
+
+.heading a {
+    color: white;
+    text-decoration: none;
 }
 
 .sub-heading-section {
@@ -39,8 +48,19 @@ body {
 
 .portfolio-button:hover {
     border: solid 6px #317cb2;
-    background-color: rgba(72, 66, 66, 0.7);
+    background-color: rgba(247, 247, 247, 0.866);
+    color: black;
+    font-size: 22px;
 }
+
+
+
+
+
+
+
+
+
 
 
 /* dropdown nav */
@@ -103,6 +123,9 @@ body {
     }
 }
 
+
+
+
 /* quote section */
 
 .quote-section {
@@ -131,11 +154,16 @@ body {
     opacity: 0.9;
 }
 
+
+
+/* footer of index.html*/
 .socials {
-    margin: 20px;
+    margin: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
+    
 
 
 
@@ -144,4 +172,109 @@ body {
 .socials img {
     width: 70px;
     height: 70px;
+    border: solid 2px white;
+    border-radius: 20px;
 }
+
+
+
+
+
+
+
+/* about.html */
+
+.header {
+ color: white;
+ font-family: 'DM Serif Display', serif;
+ text-align: center;
+ font-size: 50px;
+ text-shadow: 10px 0px 0px black;
+}
+
+.about-content {
+    font-size: 30px;
+    color: white;
+    background-color:rgb(18, 17, 17, .7);
+    padding-top: 100px;
+    padding-bottom: 200px;
+    border-top: solid 2px #107fcf;
+    border-bottom: solid 2px #107fcf;
+}
+
+.nature-section{
+    text-align: center;
+    
+}
+
+.mila-section {
+   text-align: center;
+   padding-top: 100px;
+   border-top: solid 2px #107fcf;
+   border-bottom: solid 2px #107fcf;
+    
+
+}
+
+
+.interests-section {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.about-content p {font-family: 'Montserrat Alternates', sans-serif;}
+
+.about-content img{
+    width: 350px;
+    length: 350px;
+    border:solid 5px #107fcf;
+    border-radius: 100px; 
+}
+
+
+
+/* portfolio.html */
+
+.portfolio-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    background-color:rgb(18, 17, 17, .7);
+}
+
+.portfolio-content img {
+    width: 300px;
+    length:300px;
+    border:solid 5px #107fcf;
+    border-radius: 25px;
+}
+
+.grocery-ls-section {
+    text-align: center;
+    width: 40%;
+}
+
+
+.calculator-section {
+    text-align: center;
+    width: 40%;
+}
+
+
+.zoo-section {
+    text-align: center;
+    width: 40%;
+}
+
+.etch-a-sketch-section {
+    text-align: center;
+    width: 40%;
+}
+
+
+
+
+
+
