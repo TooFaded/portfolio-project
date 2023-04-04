@@ -243,36 +243,40 @@ body {
     color: white;
     background-color:rgb(18, 17, 17, .7);
     margin-bottom: 20rem;
+    gap: 7em;
 }
 
 .portfolio-content img {
-    width: 300px;
-    height:auto;
+    max-width: 300px;
+    min-height:auto;
     border:solid 5px #107fcf;
     border-radius: 25px;
 }
 
 .grocery-ls-section {
     text-align: center;
-    width: 40%;
+    max-width: 40%;
 }
 
 
 .calculator-section {
     text-align: center;
-    width: 40%;
+    max-width: 40%;
 }
 
 
 .zoo-section {
     text-align: center;
-    width: 40%;
+    max-width: 40%;
 }
 
 .etch-a-sketch-section {
     text-align: center;
-    width: 40%;
+    max-width: 40%;
 }
+
+
+
 
 
 
